@@ -2,10 +2,11 @@
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "tasksRunnerOptions": {
     "default": {
-      "runner": "nx-cloud",
+      "runner": "@vercel/remote-nx",
       "options": {
         "cacheableOperations": ["build", "lint", "test", "e2e"],
-        "accessToken": "NWU3YjEwOGItMWM2ZS00OTA5LTlkOTktZjAzM2MxNmUyYzUxfHJlYWQtd3JpdGU="
+        "accessToken": "NWU3YjEwOGItMWM2ZS00OTA5LTlkOTktZjAzM2MxNmUyYzUxfHJlYWQtd3JpdGU=",
+        "cacheDirectory": "/tmp/nx-cache"
       }
     }
   },

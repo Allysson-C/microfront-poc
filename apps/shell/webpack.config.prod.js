@@ -24,9 +24,8 @@ const prodConfig = {
    * ]
    */
   remotes: [
-    ['shop', 'http://localhost:4201/'],
-    ['cart', 'http://localhost:4202/'],
-    ['about', 'http://localhost:4203/'],
+    ['cart', 'https://cart-sooty-delta.vercel.app/'],
+    ['about', 'https://microfront-poc-ftad.vercel.app/'],
   ],
 };
 
