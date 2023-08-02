@@ -20,6 +20,7 @@ export function NxWelcome({ title }: { title: string }) {
       line-height: 1.5;
       tab-size: 4;
       scroll-behavior: smooth;
+      background: #3abff8;
     }
     body {
       font-family: inherit;
